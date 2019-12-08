@@ -1,6 +1,6 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package í”„ë¡œê·¸ë˜ë¨¸ìŠ¤;
 
-public class ÇÁ·Î±×·¡¸Ó½º_ÁÖ½Ä°¡°İ_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ì£¼ì‹ê°€ê²©_ì´ì •ìˆ˜ {
 	
 	 public int[] solution(int[] prices) {
 	        int[] answer = new int[prices.length];
@@ -9,16 +9,16 @@ public class ÇÁ·Î±×·¡¸Ó½º_ÁÖ½Ä°¡°İ_ÀÌÁ¤¼ö {
 	            int cnt=0;
 	            boolean flag=false;
 	            for(int j=i+1;j<prices.length;j++){
-	                if(prices[i]>prices[j]){//°¡°İÀÌ ¶³¾îÁö´Â ¼ø°£
-	                    cnt++;//¶³¾îÁö´Â ¼ø°£ ÇöÀç 1ÃÊ°£ °¢°ÜÀÌ ¶³¾îÁöÁö¾ÊÀ¸¹Ç·Î 1ÃÊ Ãß°¡
+	                if(prices[i]>prices[j]){//ê°€ê²©ì´ ë–¨ì–´ì§€ëŠ” ìˆœê°„
+	                    cnt++;//ë–¨ì–´ì§€ëŠ” ìˆœê°„ í˜„ì¬ 1ì´ˆê°„ ì´ ë–¨ì–´ì§€ì§€ì•Šìœ¼ë¯€ë¡œ 1ì´ˆ ì¶”ê°€
 	                    answer[i]=cnt;
 	                    flag=true;
 	                    break;
-	                } else{//°¡°İÀÌ ¾È¶³¾îÁö°í À¯ÁöµÇ´Â Áß
+	                } else{//ê°€ê²©ì´ ì•ˆë–¨ì–´ì§€ê³  ìœ ì§€ë˜ëŠ” ì¤‘
 	                    cnt++;
 	                }
 	            }
-	            if(!flag){//³¡±îÁö °è¼Ó ¾È¶³¾îÁö´Â °æ¿ì
+	            if(!flag){//ëê¹Œì§€ ê³„ì† ì•ˆë–¨ì–´ì§€ëŠ” ê²½ìš°
 	               answer[i]=cnt;
 	            }
 	        } 
