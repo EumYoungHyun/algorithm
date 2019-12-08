@@ -1,4 +1,4 @@
-package 프로그래머스;
+package jungsoo;
 
 public class 프로그래머스_주식가격_이정수 {
 	

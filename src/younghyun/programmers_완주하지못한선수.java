@@ -1,7 +1,7 @@
 package younghyun;
 import java.util.HashMap;
 
-public class programmers_완주하지못한선수_음영현 {
+public class programmers_완주하지못한선수 {
 	public static void main(String[] args) {
 
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
