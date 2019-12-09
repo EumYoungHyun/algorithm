@@ -5,7 +5,7 @@ import java.util.*;
 public class 프로그래머스_탑_이정수 {
 
 	public static void main(String[] args) {
-		���α׷��ӽ�_ž_������ s = new ���α׷��ӽ�_ž_������();
+		프로그래머스_탑_이정수 s = new 프로그래머스_탑_이정수();
 		int arr[] = { 6, 9, 5, 7, 4 };
 		int arr1[] = {3,9,9,3,5,7,2  };
 		int arr2[] = { 1,5,3,6,7,6,5 };

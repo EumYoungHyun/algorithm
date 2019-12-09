@@ -6,8 +6,7 @@ import java.util.Queue;
 public class 프로그래머스_프린터_이정수 {
 
 	public static void main(String[] args) {
-		���α׷��ӽ�_������_������ a= new ���α׷��ӽ�_������_������();
-
+		프로그래머스_프린터_이정수 a= new 프로그래머스_프린터_이정수();
 	}
 	
 	 public int solution(int[] priorities, int location) {

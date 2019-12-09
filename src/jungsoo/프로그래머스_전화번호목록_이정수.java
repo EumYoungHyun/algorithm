@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class  프로그래머스_전화번호목록_이정수 {
 
 	public static void main(String[] args) {
-		���α׷��ӽ�_��ȭ��ȣ���_������ a = new ���α׷��ӽ�_��ȭ��ȣ���_������();
+		프로그래머스_전화번호목록_이정수 a = new 프로그래머스_전화번호목록_이정수();
 		String s[]={"119","97674223","1195524421"};
 		System.out.println(a.solution(s));
 
