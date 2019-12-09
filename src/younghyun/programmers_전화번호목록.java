@@ -2,7 +2,7 @@ package younghyun;
 
 import java.util.Arrays;
 
-public class programmers_전화번호목록_음영현 {
+public class programmers_전화번호목록 {
 	public static void main(String[] args) {
 		String[] phone_book = {"2343", "23456", "231"};
 		

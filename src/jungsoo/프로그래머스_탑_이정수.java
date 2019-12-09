@@ -1,11 +1,11 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 
 import java.util.*;
 
-public class ÇÁ·Î±×·¡¸Ó½º_Å¾_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_íƒ‘_ì´ì •ìˆ˜ {
 
 	public static void main(String[] args) {
-		ÇÁ·Î±×·¡¸Ó½º_Å¾_ÀÌÁ¤¼ö s = new ÇÁ·Î±×·¡¸Ó½º_Å¾_ÀÌÁ¤¼ö();
+		í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_íƒ‘_ì´ì •ìˆ˜ s = new í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_íƒ‘_ì´ì •ìˆ˜();
 		int arr[] = { 6, 9, 5, 7, 4 };
 		int arr1[] = {3,9,9,3,5,7,2  };
 		int arr2[] = { 1,5,3,6,7,6,5 };
