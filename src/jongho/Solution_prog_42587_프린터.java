@@ -2,15 +2,15 @@ package jongho;
 import java.util.ArrayList;
 public class Solution_prog_42587_프린터 {
     public int solution(int[] priorities, int location) {
-		int answer=0;
+		int answer=0, loc=location, res=-1;
 		ArrayList<Integer> arr = new ArrayList<>();
 		ArrayList<Integer> arr2 = new ArrayList<>();
+		
 		for(int i=0; i<priorities.length; i++) {
 			arr.add(priorities[i]);
 			arr2.add(i);
 		}
-		int loc = location;
-		int res=-1;
+		
 		while(res!=loc) {
 			int k =arr.remove(0);
 			boolean ch=false;
