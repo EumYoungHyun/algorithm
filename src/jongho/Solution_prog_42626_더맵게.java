@@ -14,8 +14,6 @@ public class Solution_prog_42626_더맵게 {
 		for (int i = 0; i < scoville.length; i++) {
 			pq.add(scoville[i]);
 		}
-		pq.
-		System.out.println(pq);
 		while (pq.peek() < K) {
 			if (pq.size() == 1)
 				return -1;
