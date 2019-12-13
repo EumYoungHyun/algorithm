@@ -1,5 +1,6 @@
+package jungsoo;
 import java.util.*;
-class ÇÁ·Î±×·¡¸Ó½º_±¸¸íº¸Æ®_ÀÌÁ¤¼ö {
+class ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½Ó½ï¿½_ï¿½ï¿½ï¿½ï¿½Æ®_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ {
     public int solution(int[] people, int limit) {
         int answer = 0;
         boolean visited[]=new boolean[people.length];

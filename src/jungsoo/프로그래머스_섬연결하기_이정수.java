@@ -1,5 +1,6 @@
+package jungsoo;
 import java.util.*;
-class ÇÁ·Î±×·¡¸Ó½º_¼¶¿¬°áÇÏ±â_ÀÌÁ¤¼ö {
+class ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½Ó½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ {
     
     class Land implements Comparable<Land>{
         int start;
