@@ -6,7 +6,7 @@ public class programmers_큰수만들기 {
 		System.out.println(s.solution("44547444", 4));
 	}
 	public String solution(String number, int k) {
-        String answer = "";
+        StringBuilder sb= new StringBuilder();
         int s = 0;
         int max = number.charAt(0)-'0';
         int end = k;
@@ -17,11 +17,10 @@ public class programmers_큰수만들기 {
 					s = j;
 				}
 			}
-			answer+= max;
+			sb.append(max);
 			max = 0;
 			end++;
 		}
-        
-        return answer;
+        return sb.toString();
     }
 }
