@@ -1,7 +1,7 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 import java.util.*;
 
-public class ÇÁ·Î±×·¡¸Ó½º_ÀÌÁß¿ì¼±¼øÀ§Å¥_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ì´ì¤‘ìš°ì„ ìˆœìœ„í_ì´ì •ìˆ˜ {
 	
 	public int[] solution(String[] operations) {
 		int[] answer;

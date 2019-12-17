@@ -1,8 +1,8 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 
 import java.util.*;
 
-public class ÇÁ·Î±×·¡¸Ó½º_³×Æ®¿öÅ©_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ë„¤íŠ¸ì›Œí¬_ì´ì •ìˆ˜ {
 	int p[];
 	int rank[];
 

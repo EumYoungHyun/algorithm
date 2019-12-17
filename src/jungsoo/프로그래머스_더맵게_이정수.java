@@ -1,11 +1,11 @@
-package га╥н╠в╥║╦с╫╨;
+package jungsoo;
 
 import java.util.PriorityQueue;
 
-public class га╥н╠в╥║╦с╫╨_╢У╦й╟т_юла╓╪Ж {
+public class М■└К║°Й╥╦К·≤К╗╦Л┼╓_К█■К╖╣Й╡▄_Л²╢Л═∙Л┬≤ {
 
 	public static void main(String[] args) {
-		га╥н╠в╥║╦с╫╨_╢У╦й╟т_юла╓╪Ж a=new га╥н╠в╥║╦с╫╨_╢У╦й╟т_юла╓╪Ж();
+		М■└К║°Й╥╦К·≤К╗╦Л┼╓_К█■К╖╣Й╡▄_Л²╢Л═∙Л┬≤ a=new М■└К║°Й╥╦К·≤К╗╦Л┼╓_К█■К╖╣Й╡▄_Л²╢Л═∙Л┬≤();
 		int arr[]={1,3,2,9,10,12};
 		System.out.println(a.solution(arr, 7));
 

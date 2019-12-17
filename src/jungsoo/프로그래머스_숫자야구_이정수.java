@@ -1,6 +1,6 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 import java.util.*;
-public class ÇÁ·Î±×·¡¸Ó½º_¼ıÀÚ¾ß±¸_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ìˆ«ìì•¼êµ¬_ì´ì •ìˆ˜ {
 	  public static int solution(int[][] baseball) {
 	        Stack<String> stack = new Stack<>();
 	        for(int i = 1; i < 10; i++) {

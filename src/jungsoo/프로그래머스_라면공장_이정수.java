@@ -1,9 +1,9 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 
-public class ÇÁ·Î±×·¡¸Ó½º_¶ó¸é°øÀå_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ë¼ë©´ê³µì¥_ì´ì •ìˆ˜ {
 
 	public static void main(String[] args) {
-		ÇÁ·Î±×·¡¸Ó½º_¶ó¸é°øÀå_ÀÌÁ¤¼ö a=new ÇÁ·Î±×·¡¸Ó½º_¶ó¸é°øÀå_ÀÌÁ¤¼ö();
+		í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ë¼ë©´ê³µì¥_ì´ì •ìˆ˜ a=new í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ë¼ë©´ê³µì¥_ì´ì •ìˆ˜();
 		int st=4;
 		int d[]={1,2,3,4};
 		int s[]={10,40,30,20};
@@ -14,28 +14,28 @@ public class ÇÁ·Î±×·¡¸Ó½º_¶ó¸é°øÀå_ÀÌÁ¤¼ö {
 	
 	 public int solution(int stock, int[] dates, int[] supplies, int k) {
 	        int answer = 0;
-	        int day=0;//³¯Â¥ ÀÎµ¦½º
-	        for(int i=1;i<k;i++){//k-1±îÁö¸¸ ÇÏ¸éµÊ
-	            stock--;//ÇÏ·ç ¹Ğ°¡·ç ¼Òºñ
+	        int day=0;//ë‚ ì§œ ì¸ë±ìŠ¤
+	        for(int i=1;i<k;i++){//k-1ê¹Œì§€ë§Œ í•˜ë©´ë¨
+	            stock--;//í•˜ë£¨ ë°€ê°€ë£¨ ì†Œë¹„
 	            
 	            if(day==dates.length)
 	            	break;
-	            if(i==dates[day]){//°ø±Ş³¯Â¥
+	            if(i==dates[day]){//ê³µê¸‰ë‚ ì§œ
 	                
-	                if(day==dates.length-1){//¸¶Áö¸· °ø±Ş³¯Â¥ÀÇ °æ¿ì day+1À» ÇÒ ¼ö ¾øÀ¸¹Ç·Î µû·Î ÀÛ¼º
+	                if(day==dates.length-1){//ë§ˆì§€ë§‰ ê³µê¸‰ë‚ ì§œì˜ ê²½ìš° day+1ì„ í•  ìˆ˜ ì—†ìœ¼ë¯€ë¡œ ë”°ë¡œ ì‘ì„±
 	                    if(stock<k-dates[day]){
 	                        stock+=supplies[day];
-	                        answer++;//È½¼ö Ãß°¡
+	                        answer++;//íšŸìˆ˜ ì¶”ê°€
 	                    }
 	                } else{
 	                    if(stock<dates[day+1]-dates[day]){
 	                        stock+=supplies[day];
-	                        answer++;//È½¼ö Ãß°¡
+	                        answer++;//íšŸìˆ˜ ì¶”ê°€
 	                     }
 	                }
 	                
-	                day++;//°ø±Ş³¯Â¥¸é ÆÇ´Ü ÈÄ ´ÙÀ½ °ø±Ş³¯Â¥·Î ³Ñ¾î°¨
-	            } else{//°ø±Ş³¯Â¥ ¾Æ´Ï¸é ±×³É ¹Ğ°¡·ç ¼Òºñ
+	                day++;//ê³µê¸‰ë‚ ì§œë©´ íŒë‹¨ í›„ ë‹¤ìŒ ê³µê¸‰ë‚ ì§œë¡œ ë„˜ì–´ê°
+	            } else{//ê³µê¸‰ë‚ ì§œ ì•„ë‹ˆë©´ ê·¸ëƒ¥ ë°€ê°€ë£¨ ì†Œë¹„
 	                continue;
 	            }
 	            

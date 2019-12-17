@@ -1,7 +1,7 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 import java.util.Arrays;
 import java.util.HashMap;
-public class ÇÁ·Î±×·¡¸Ó½º_¿ÏÁÖÇÏÁö¸øÇÑ¼±¼ö_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ì™„ì£¼í•˜ì§€ëª»í•œì„ ìˆ˜_ì´ì •ìˆ˜ {
 	public String solution(String[] participant, String[] completion) {
         String answer = "";
         boolean check=false;
@@ -12,7 +12,7 @@ public class ÇÁ·Î±×·¡¸Ó½º_¿ÏÁÖÇÏÁö¸øÇÑ¼±¼ö_ÀÌÁ¤¼ö {
         Arrays.sort(completion);
         
         for(int i=0;i<completion.length;i++) {
-        	par.put(i,participant[i]); //(¹øÈ£, Âü°¡ÀÚÀÌ¸§)
+        	par.put(i,participant[i]); //(ï¿½ï¿½È£, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½)
         	com.put(i,completion[i]);
         	
         	if(!par.get(i).equals(com.get(i))) {

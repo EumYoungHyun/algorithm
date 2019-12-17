@@ -1,12 +1,12 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 
 import java.util.*;
 import java.util.Map.Entry;
-public class ÇÁ·Î±×·¡¸Ó½º_º£½ºÆ®¾Ù¹ü_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ë² ìŠ¤íŠ¸ì•¨ë²”_ì´ì •ìˆ˜ {
 	
 	public int[] solution(String[] genres, int[] plays) {
 		int[] answer;
-		ArrayList<Integer> aList = new ArrayList<>();// ÀÓ½Ã·Î ´äÀ» ´ãÀ» ¸®½ºÆ®
+		ArrayList<Integer> aList = new ArrayList<>();// ì„ì‹œë¡œ ë‹µì„ ë‹´ì„ ë¦¬ìŠ¤íŠ¸
 		HashMap<String, Integer> map = new HashMap<>();
 		for (int i = 0; i < plays.length; i++) {
 			if (!map.containsKey(genres[i]))
@@ -17,7 +17,7 @@ public class ÇÁ·Î±×·¡¸Ó½º_º£½ºÆ®¾Ù¹ü_ÀÌÁ¤¼ö {
 			}
 		}
 
-		// Map value±âÁØ ³»¸²Â÷¼ø Á¤·Ä --> entrySetÀº mapÀÇ key, value ¸ğµç Á¤º¸¸¦ °¡Á®¿È
+		// Map valueê¸°ì¤€ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬ --> entrySetì€ mapì˜ key, value ëª¨ë“  ì •ë³´ë¥¼ ê°€ì ¸ì˜´
 		List<Map.Entry<String, Integer>> list = new LinkedList<>(map.entrySet());
 
 		Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
@@ -27,7 +27,7 @@ public class ÇÁ·Î±×·¡¸Ó½º_º£½ºÆ®¾Ù¹ü_ÀÌÁ¤¼ö {
 				return o2.getValue() - o1.getValue();
 			}
 		});
-		for (int i = 0; i < list.size(); i++) {// °¡Àå ¸¹ÀÌ Àç»ıµÈ Àå¸£ºÎÅÍ »ÌÀ½
+		for (int i = 0; i < list.size(); i++) {// ê°€ì¥ ë§ì´ ì¬ìƒëœ ì¥ë¥´ë¶€í„° ë½‘ìŒ
 			int max = 0;
 			int maxValue = 0;
 			int second = 0;
@@ -45,9 +45,9 @@ public class ÇÁ·Î±×·¡¸Ó½º_º£½ºÆ®¾Ù¹ü_ÀÌÁ¤¼ö {
 			}
 			aList.add(max);
 			
-			if (cnt != 1) { //ÇØ´ç Àå¸£ ¼ö·Ï°îÀÌ 1°³¹Û¿¡ ¾øÀ¸¸é 2¹øÂ° °ªÀ» Ã£À» ÇÊ¿ä°¡ ¾ø´Ù.
+			if (cnt != 1) { //í•´ë‹¹ ì¥ë¥´ ìˆ˜ë¡ê³¡ì´ 1ê°œë°–ì— ì—†ìœ¼ë©´ 2ë²ˆì§¸ ê°’ì„ ì°¾ì„ í•„ìš”ê°€ ì—†ë‹¤.
 				for (int k = plays.length - 1; k >=0; k--) {
-					if (gen.equals(genres[k]) && k!=max) { // 2¹øÂ° Å«°ªÃ£À½
+					if (gen.equals(genres[k]) && k!=max) { // 2ë²ˆì§¸ í°ê°’ì°¾ìŒ
 						if (plays[k] >= secondValue){
 							second = k;
 						    secondValue = plays[k];

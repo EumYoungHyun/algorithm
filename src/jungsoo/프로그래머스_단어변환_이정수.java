@@ -1,3 +1,4 @@
+package jungsoo;
 
 public class 프로그래머스_단어변환_이정수 {
 	int cnt = 0;
