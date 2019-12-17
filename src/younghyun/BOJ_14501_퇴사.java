@@ -7,7 +7,6 @@ import java.util.StringTokenizer;
 public class BOJ_14501_퇴사 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
 		int N = Integer.parseInt(br.readLine());
 		int[][] date = new int[N+1][2];
 		int[] memo = new int[N+1];
