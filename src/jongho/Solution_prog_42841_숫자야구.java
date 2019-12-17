@@ -31,7 +31,7 @@ public class Solution_prog_42841_숫자야구 {
             for(int i=0; i<bb.length; i++){
                 chk+=check(i);
             }
-            if(chk==bb.length) {System.out.println(Arrays.toString(arr)); answer++;}
+            if(chk==bb.length) answer++;
         }else{
             for(int i=k; i<n; i++){
                 int temp=arr[i];
