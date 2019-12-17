@@ -1,6 +1,6 @@
 package jungsoo;
 import java.util.*;
-class ���α׷��ӽ�_����Ʈ_������ {
+class 프로그래머스_구명보트_이정수 {
     public int solution(int[] people, int limit) {
         int answer = 0;
         boolean visited[]=new boolean[people.length];

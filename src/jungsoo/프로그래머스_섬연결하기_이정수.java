@@ -1,6 +1,6 @@
 package jungsoo;
 import java.util.*;
-class ���α׷��ӽ�_�������ϱ�_������ {
+class 프로그래머스_섬연결하기_이정수 {
     
     class Land implements Comparable<Land>{
         int start;

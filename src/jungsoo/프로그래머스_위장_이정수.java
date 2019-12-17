@@ -1,8 +1,8 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-public class ÇÁ·Î±×·¡¸Ó½º_À§Àå_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ìœ„ì¥_ì´ì •ìˆ˜ {
 	
 	public int solution(String[][] clothes) {
     	HashMap<String,Integer> map=new HashMap<>();

@@ -1,6 +1,6 @@
-package ÇÁ·Î±×·¡¸Ó½º;
+package jungsoo;
 
-public class ÇÁ·Î±×·¡¸Ó½º_½ºÅ³Æ®¸®_ÀÌÁ¤¼ö {
+public class í”„ë¡œê·¸ë˜ë¨¸ìŠ¤_ìŠ¤í‚¬íŠ¸ë¦¬_ì´ì •ìˆ˜ {
 	class Solution {
 	    public int solution(String skill, String[] skill_trees) {
 	        int answer = 0;

@@ -1,15 +1,15 @@
-package га╥н╠в╥║╦с╫╨;
+package jungsoo;
 
 import java.util.Arrays;
 
-public class га╥н╠в╥║╦с╫╨_H_Index_юла╓╪Ж {
+public class М■└К║°Й╥╦К·≤К╗╦Л┼╓_H_Index_Л²╢Л═∙Л┬≤ {
 	 public int solution(int[] citations) {
 	       int answer = 0;
 	        Arrays.sort(citations);
 	        int len=citations.length;
 
 	        for(int i=len;i>=0;i--){
-	            int h=i;//╟║юЕ е╚ ╪Ж ╨нем ╩лю╫
+	            int h=i;//Й╟─Л·╔ М│╟ Л┬≤ К╤─М└╟ К╫▒Л²▄
 
 	            int point=0;
 	            for(int j=0;j<len;j++){
