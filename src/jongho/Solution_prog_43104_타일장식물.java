@@ -1,7 +1,7 @@
 package jongho;
 import java.util.*;
 
-//Greedy
+//DP
 public class Solution_prog_43104_타일장식물 {
 	public static void main(String[] args) {
 		System.out.println(solution(5));

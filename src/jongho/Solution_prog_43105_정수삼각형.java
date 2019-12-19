@@ -1,7 +1,7 @@
 package jongho;
 import java.util.*;
 
-//Greedy
+//DP
 public class Solution_prog_43105_정수삼각형 {
 	public static void main(String[] args) {
 		int[][] triangle = new int[][] {{7},{3,8},{8,1,0},{2,7,4,4},{4,5,2,6,5}};
