@@ -1,7 +1,7 @@
 package jongho;
 import java.util.*;
 
-//DP
+//DFS,BFS
 public class Solution_prog_43165_타겟넘버 {
 	public static void main(String[] args) {
 		int[]numbers = new int[] {1,1,1,1,1};
