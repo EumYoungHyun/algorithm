@@ -3,8 +3,12 @@ import java.util.*;
 
 //DP
 public class Solution_prog_42898_등굣길 {
+	public static void main(String[] args) {
+		int[][] puddles = new int[][] {{2,2}};
+		System.out.println(solution(4,3,puddles));
+	}
     public static int[][] road;
-    public int solution(int m, int n, int[][] puddles) {
+    public static int solution(int m, int n, int[][] puddles) {
         int answer = 0;
         road = new int[n+1][m+1];
         for(int i=0; i<puddles.length; i++){
