@@ -1,7 +1,7 @@
 package jongho;
 import java.util.*;
 
-//Stack
+//Greedy
 public class Solution_prog_42886_저울 {
 	public static void main(String[] args) {
 		int[] weights = new int[] {3, 1, 6, 2, 7, 30, 1};
