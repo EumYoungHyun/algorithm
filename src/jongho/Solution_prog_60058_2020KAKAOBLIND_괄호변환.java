@@ -2,7 +2,7 @@ package jongho;
 
 import java.util.*;
 
-//
+
 public class Solution_prog_60058_2020KAKAOBLIND_괄호변환 {
 	public static void main(String[] args) {
 		int[][] picture = new int[][] {{1, 1, 1, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {0, 0, 0, 3}};
