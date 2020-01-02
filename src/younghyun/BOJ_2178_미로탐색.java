@@ -30,15 +30,24 @@ public class BOJ_2178_미로탐색 {
 		queue.add(new Integer[] {0, 0, 1});
 		int[][] check = new int[N][M];
 		int answer = 0;
-		while(queue.isEmpty()) {
+		while(!queue.isEmpty()) {
 			Integer[] temp = queue.poll();
 			if(temp[0] == N-1 && temp[1] == M-1) {
 				answer = temp[2];
-				return;
+				break;
 			}
-			
+			for (int i = 0; i < 4; i++) {
+				int nx = temp[0] + dirs[i][0];
+				int ny = temp[1] + dirs[i][1];
+				if(nx >= 0 && nx < N && ny >=0 && ny < M 
+						&& map[nx][ny] == 1 
+						&& (check[nx][ny] == 0 || check[nx][ny] > temp[2])) {
+					check[nx][ny]= temp[2];
+					queue.add(new Integer[] {nx, ny, temp[2]+1});
+				}
+			}
 		}
-		
+		System.out.println(answer);
 	}
 	public static int[][] dirs = {{-1, 0},{0, -1},{1, 0},{0, 1}};
 }
