@@ -1,7 +1,5 @@
 package jongho;
 
-import java.util.Arrays;
-
 // String
 public class Solution_prog_12899_124나라의숫자 {
 	public static void main(String[] args) {
