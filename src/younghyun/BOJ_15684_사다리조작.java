@@ -40,8 +40,8 @@ public class BOJ_15684_사다리조작 {
 		if(lineMakeCount >= 4 || lineMakeCount > min) return;
 		if(row == map.length) {
 			for (int i = 1; i < map[0].length; i++) {
-				int arrival = routeNavigation(i);
-				if(i != arrival) return;
+//				int arrival = routeNavigation(i);
+//				if(i != arrival) return;
 			}
 			if(min > lineMakeCount) {
 				min = lineMakeCount;
@@ -57,8 +57,5 @@ public class BOJ_15684_사다리조작 {
 		routeMaker(row, col+1, lineMakeCount+1);
 		map[row][col] = 0;
 		map[row][col+1] = 0;
-	}
-	public static int routeNavigation(int colLocation) {
-
 	}
 }// end of class
