@@ -2,7 +2,6 @@ package younghyun;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 public class BOJ_15650_N과M_2 {
 	private static int[] arr;
