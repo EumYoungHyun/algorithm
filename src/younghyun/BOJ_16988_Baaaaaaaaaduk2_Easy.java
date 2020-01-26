@@ -53,30 +53,43 @@ public class BOJ_16988_Baaaaaaaaaduk2_Easy {
 				}
 			}
 		}
+		map[r][c] = 0;
 	}
 
 	private static void searching() {
+		int temp = 0;
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
 				if(map[i][j] == 2) {
 					count = 0;
 					flag = true;
+					if(copymap[i][j] != 0)
 					dfs(i, j);
-					if (flag) 
-						if(max < count) 
-							max = count;
+					if (flag) {
+						temp += count;
+					}
 				}
 			}
 		}
+		if(max < temp) 
+			max = temp;
 	}
-	private int[][] dirs = {{0,1},{1,0},{-1,0},{0,-1}};
+	private static int[][] dirs = {{0,1},{1,0},{-1,0},{0,-1}};
 	private static void dfs(int r, int c) {
 		if(map[r][c] == 0) {
 			flag = false;
 			return;
 		}
-		if(map[r][c] == 1) return;
+		if(copymap[r][c] != 2) return;
+		count++;
 		copymap[r][c] = 0;
+		for (int i = 0; i < 4; i++) {
+			int nr = r + dirs[i][0];
+			int nc = c + dirs[i][1];
+			if(nr>=0 && nr <N && nc >=0 && nc<M) {
+				dfs(nr,nc);
+			}
+		}
 		
 	}
 }
