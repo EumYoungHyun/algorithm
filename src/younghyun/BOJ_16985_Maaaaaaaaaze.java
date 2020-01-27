@@ -62,6 +62,7 @@ public class BOJ_16985_Maaaaaaaaaze {
 										if(min > count) min = count;
 										continue;
 									}
+									if(count>= min) return;
 									if(check[r][c][z]) continue;
 									check[r][c][z] = true;
 									for (int i = 0; i < 6; i++) {
