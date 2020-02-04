@@ -11,4 +11,4 @@ int solution(int n) {
 int fibo(int n){
     if(n==0 || s[n]!=0) return s[n];
     else if(n!=0 && s[n]==0) s[n] = (fibo(n-1)+fibo(n-2))%1234567;
-}
+} 
