@@ -62,7 +62,7 @@ public class BOJ_16985_Maaaaaaaaaze {
 										if(min > count) min = count;
 										continue;
 									}
-									if(count>= min) return;
+									if(count > min) return;
 									if(check[r][c][z]) continue;
 									check[r][c][z] = true;
 									for (int i = 0; i < 6; i++) {
@@ -140,8 +140,7 @@ public class BOJ_16985_Maaaaaaaaaze {
 					}
 				}
 			}// end of t1
-			return;
-		}
+			return;}
 		for (int i = cc; i < arr.length; i++) {
 			int temp = arr[i];
 			arr[i] = arr[cc];
